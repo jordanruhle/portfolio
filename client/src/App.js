@@ -3,15 +3,20 @@ import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
+import Technologies from './components/Technologies';
 
 function App() {
 
   return (
-    <div className="text-gray-800">
-      <Header />
-      <AboutMe />
-      <Portfolio />
-      <Contact />
+    <div id="background" className="text-gray-800">
+      <div className='max-w-screen-xl mx-auto grid md:grid-cols-2 px-4' >
+        <Header />
+        <AboutMe />
+        <div id='bgImageSpacer' className='col-start-1 row-start-2 md:col-start-2 '></div>
+        <Technologies />
+      </div>
+        <Portfolio />
+        <Contact />
     </div>
   );
 }
