@@ -7,3 +7,40 @@
 body {
   font-family: 'Quicksand', sans-serif;
 }
+
+#background {
+  background-image: url('../src/assets/images/portfolio\ placeholder.PNG');
+  background-repeat: no-repeat;
+  background-origin: border-box;
+  background-position: right top;
+  background-size: 95%;
+}
+
+
+#bgImageSpacer {
+  height: 80vw;
+}
+
+@media (min-width: 640px) {
+  #background {
+    background-size: 75%;
+  }
+  #bgImageSpacer {
+    height: 70vw;
+  }
+}
+
+@media (min-width: 768px) {
+  #background {
+    background-size: 50%;
+  }
+  #bgImageSpacer {
+    height: 60vw;
+  }
+}
+
+@media (min-width: 1024px) {
+    #bgImageSpacer {
+    height: 50vw;
+  }
+}
