@@ -10,7 +10,9 @@ const Header = () => {
           <li><a className='hover:font-semibold text-xl' href="#technologies">Technologies</a></li>
           <li><a className='hover:font-semibold text-xl' href="#portfolio">Portfolio</a></li>
         </ul>
-        <PillButton buttonText='Contact Me' buttonColor='bg-gray-200' hoverColor='bg-gray-100' />
+        <a href="mailto:jordanruhle@gmail.com">
+          <PillButton buttonText='Contact Me' buttonColor='bg-gray-200' hoverColor='bg-gray-100' />
+        </a>
       </div>
     </header>
   );

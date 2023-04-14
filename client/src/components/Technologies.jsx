@@ -4,13 +4,16 @@ const Technologies = ({ bgColor, textColor, text }) => {
   const bgColors = ['bg-slate-500', 'bg-orange-400', 'bg-neutral-800', 'bg-gray-200', 'bg-orange-600']
   const textColors = ['text-white', 'text-gray-800']
 
-  const languages = ["JavaScript ES6+", "Python", "Java", "HTML5", "CSS", "SQL"]
-  const frontEnd = ["jQuery", "React", "React Native", "Bootstrap", "Material-UI", "Tailwind"]
-  const backend = ["Node.js", "Flask", "Jinja2", "Spring Boot", "Express", "Mongoose"]
-  const frameworks = ["Spring Boot", "jQuery", "Express", "React Native", "Bootstrap", "Material-UI", "Tailwind"]
-  const libraries = ["React", "Bootstrap", "Material-UI", "Tailwind"]
-  const Databases = ["MySQL", "MongoDB"]
-  const Tools = ["AJAX", "Spring Tool Suite", "REST API", "JSON", "Postman", "MySQL Workbench", "Git", "Github"]
+  const languages = ["JavaScript ES6+", "Python", "Java", "HTML5", "CSS", "SQL"];
+const frontEnd = ["React", "React Native", "Bootstrap", "Material-UI", "Tailwind"];
+const backend = ["Node.js", "Flask", "Jinja2", "Spring Boot", "Express", "Mongoose"];
+const frameworks = ["jQuery", "React Native"];
+const libraries = ["React", "Bootstrap", "Material-UI", "Tailwind"];
+const databases = ["MySQL", "MongoDB"];
+const tools = ["AJAX", "Spring Tool Suite", "REST API", "JSON", "Postman", "MySQL Workbench", "Git", "Github", "Certbot"];
+const cloudServices = ["AWS EC2", "AWS S3", "AWS Route 53"];
+const middleware = ["Multer"];
+
 
   const selectTextColor = (bgColorIndex) => {
     if (['bg-slate-500', 'bg-neutral-800', 'bg-orange-600'].includes(bgColors[bgColorIndex])) {
@@ -27,7 +30,7 @@ const Technologies = ({ bgColor, textColor, text }) => {
 
         {
           languages
-            .concat(frontEnd, backend, frameworks, libraries, Databases, Tools)
+            .concat(frontEnd, backend, frameworks, libraries, databases, tools, cloudServices, middleware)
             .map((tech, key) => {
               const bgColorIndex = key % bgColors.length;
               return (
