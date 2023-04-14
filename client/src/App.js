@@ -2,10 +2,12 @@ import React from 'react';
 import Header from './components/Header';
 import AboutMe from './components/AboutMe';
 import Portfolio from './components/Portfolio';
-import Contact from './components/Contact';
 import Technologies from './components/Technologies';
+import SocialLinks from './components/Social';
+
 
 function App() {
+
 
   return (
     <div id="background" className="text-gray-800">
@@ -15,8 +17,8 @@ function App() {
         <div id='bgImageSpacer' className='col-start-1 row-start-2 md:col-start-2 '></div>
         <Technologies />
       </div>
-        <Portfolio />
-        <Contact />
+      <Portfolio />
+      <SocialLinks />
     </div>
   );
 }
