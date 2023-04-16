@@ -5,8 +5,8 @@ import linkedInLogo from '../assets/icons/linkedin.png'
 
 const SocialLinks = () => {
   return (
-    <footer className='py-4 bg-neutral-800'>
-    <div className='mx-auto flex justify-between items-center max-w-screen-xl gap-8 '>
+    <footer className='p-4 bg-neutral-800'>
+    <div className='mx-auto flex flex-col sm:flex-row sm:justify-between items-center max-w-screen-xl gap-8 '>
       <p className='text-white text-xl'>Jordan Ruhle</p>
       <ul className='flex justify-center items-center gap-8'>
         <li><a href="https://github.com/jordanruhle"><img src={githubLogo} alt="gmail" className='h-14'/></a></li>
