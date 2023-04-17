@@ -16,6 +16,11 @@ body {
   background-size: 95%;
 }
 
+.dietApp {
+  background-image: url('../src//assets/images/DietApp.PNG');
+  background-repeat: no-repeat;
+}
+
 
 #bgImageSpacer {
   height: 80vw;

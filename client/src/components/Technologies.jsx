@@ -5,14 +5,14 @@ const Technologies = ({ bgColor, textColor, text }) => {
   const textColors = ['text-white', 'text-gray-800']
 
   const languages = ["JavaScript ES6+", "Python", "Java", "HTML5", "CSS", "SQL"];
-const frontEnd = ["React", "React Native", "Bootstrap", "Material-UI", "Tailwind"];
-const backend = ["Node.js", "Flask", "Jinja2", "Spring Boot", "Express", "Mongoose"];
-const frameworks = ["jQuery", "React Native"];
-const libraries = ["React", "Bootstrap", "Material-UI", "Tailwind"];
-const databases = ["MySQL", "MongoDB"];
-const tools = ["AJAX", "Spring Tool Suite", "REST API", "JSON", "Postman", "MySQL Workbench", "Git", "Github", "Certbot"];
-const cloudServices = ["AWS EC2", "AWS S3", "AWS Route 53"];
-const middleware = ["Multer"];
+  const frontEnd = ["React", "Bootstrap", "Tailwind"];
+  const backend = ["Node.js", "Flask", "Jinja2", "Spring Boot", "Express", "Mongoose"];
+  const frameworks = [ "React Native"];
+  const libraries = ["React", "Bootstrap", "Tailwind"];
+  const databases = ["MySQL", "MongoDB"];
+  const tools = ["Spring Tool Suite", "REST API", "JSON", "Postman", "MySQL Workbench", "Git", "Github", "Certbot"];
+  const cloudServices = ["AWS EC2", "AWS S3", "AWS Route 53", "AWS Elastic IP"];
+  const middleware = ["Multer"];
 
 
   const selectTextColor = (bgColorIndex) => {

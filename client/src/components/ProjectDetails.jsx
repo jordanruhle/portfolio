@@ -6,7 +6,7 @@ const ProjectDetails = ({ hide, sethide }) => {
 
 
   return (
-    <div className={`${hide ? 'hidden' : 'block'} fixed left-0 top-0 backdrop-blur-lg mx-auto h-full w-full p-10 z-20`}>
+    <div className={`${hide ? 'hidden' : 'block'} fixed left-0 top-0 backdrop-blur-sm mx-auto h-full w-full p-10 z-20`}>
       <div className='text-5xl h-full w-full backdrop-blur-md bg-white p-4 shadow-md rounded-lg'>
         <div className=' flex justify-between items-center'>
           <h2>Mountain Bikes Store</h2>
