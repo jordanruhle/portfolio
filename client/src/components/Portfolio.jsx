@@ -32,7 +32,7 @@ const Portfolio = () => {
           </div>
 
           <div className="row-span-6 lg:row-start-3 p-12 ">
-            <div onClick={e => setProjectOneHide(false)} className='relative rounded-lg' >
+            <div className='relative rounded-lg' >
               <div className='dietApp  shadow-md rounded-lg transform hover:scale-105 hover:drop-shadow-md transition duration-200 aspect-square'>
                 <div className='h-full w-full text-center backdrop-blur-sm flex justify-center items-center'>
                   <p className='text-lg bg-white p-2 rounded-lg bg-gradient-to-r via-transparent opacity-80 inline-block'>Coming Soon</p>
