@@ -6,7 +6,8 @@ const Header = () => {
     <header className='py-4 md:col-span-2'>
       <div className='mx-auto flex justify-center md:justify-between items-center max-w-screen-xl'>
         <ul className='flex gap-8 items-center'>
-          <li><a className='hover:font-semibold text-xl' href="#aboutMe">About Me</a></li>
+          <li className='hidden sm:block'><a className='hover:font-semibold text-xl min-w-max' href="#aboutMe">About Me</a></li>
+          <li className='sm:hidden'><a className='hover:font-semibold text-xl min-w-max' href="#aboutMe">About</a></li>
           <li><a className='hover:font-semibold text-xl' href="#technologies">Technologies</a></li>
           <li><a className='hover:font-semibold text-xl' href="#portfolio">Portfolio</a></li>
         </ul>
